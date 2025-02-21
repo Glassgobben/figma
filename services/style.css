@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+    padding: 8px 24px;
+    position: absolute; 
+    background: transparent;
+    width: 100%; 
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-section a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+
+
+header {
+    background-image: url("assets/garbageMain.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#garbology-services-section {
+    height: 1000px;
+}
