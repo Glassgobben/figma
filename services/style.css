@@ -1,3 +1,10 @@
+/*
+Förbättringar med kod:
+ - dela upp det till globala variabler (fonts, font weight, osv..)
+ - att det inte är exakta mått (kan ej göra något åt det)
+*/
+
+
 body {
     margin: 0;
     padding: 0;
@@ -7,8 +14,16 @@ main {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    
-    
+
+
+}
+
+#info {
+    margin-left: 64px;
+    margin-right: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav {
@@ -17,9 +32,9 @@ nav {
     align-items: center;
     min-height: 80px;
     padding: 8px 24px;
-    position: absolute; 
-    background: transparent;
-    width: 100%; 
+    position: absolute;
+    background: rgba(0, 0, 0, 0.30);
+    width: 100%;
     z-index: 1;
     box-sizing: border-box;
 }
@@ -42,16 +57,88 @@ nav {
 
 header {
     background-image: url("assets/garbageMain.png");
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
+    padding-top: 80px;
+}
+
+
+header h1 {
+    margin-top: 86px;
+    margin-left: 64px;
+    margin-bottom: 0px;
+    color: #FFF;
+    font-family: Onest;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+
+header p {
+    margin-left: 64px;
+    margin-top: 0px;
+    color: #FFF;
+    font-family: Teachers;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 #garbology-services-section {
-    height: 1000px;
+    height: 380px;
+    display: flex;
+    gap: 133px;
+    justify-content: center;
+    align-items: center;
+}
+
+#garbology-services-section h2 {
+    color: #000;
+    font-family: Onest;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    max-width: 826px;
+}
+
+#garbology-services-section p {
+    color: #000;
+    font-family: Teachers;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 611px;
+}
+
+#img-section {
+    background-image: url("assets/carrying.png");
+    width: 1384px;
+    height: 392px;
+
+
+}
+
+#img-section p {
+    color: #FFF;
+    font-family: Teachers;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 31px;
+    padding-top: 28px;
+
+}
+
+#service-price-section{
+    height: 797px;
 }
