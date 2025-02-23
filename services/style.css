@@ -2,6 +2,9 @@
 Förbättringar med kod:
  - dela upp det till globala variabler (fonts, font weight, osv..)
  - att det inte är exakta mått (kan ej göra något åt det)
+ - Feedback till designers kan vara att ge exakta mått, göra mer exakt liksom. följa designsystemet
+ - Också göra det med frames istället så man enklare kan använda sig av flex (frames ger auto placering, mer effektivt)
+ - Frames kan också wrappa
 */
 
 
@@ -139,6 +142,178 @@ header p {
 
 }
 
-#service-price-section{
+#service-price-section {
     height: 797px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 84px;
+    border-bottom: 2px solid black;
+}
+
+.row {
+    display: flex;
+    gap: 143px;
+    padding-top: 84px;
+    padding-bottom: 95px;
+}
+
+.row #specialBox {
+    margin-left: 150px;
+}
+
+.box {
+    padding-left: 44px;
+    border-left: 2px solid black
+}
+
+.box h3 {
+    color: #000;
+    font-family: Teachers;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0px;
+}
+
+.box p {
+    color: #000;
+    font-family: Teachers;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box #priceText {
+    color: #000;
+    font-family: Teachers;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
+}
+
+#all-services-info {
+    height: 1745px;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+#all-services-info h1 {
+    color: #000;
+    font-family: Onest;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+#all-services-info p {
+    color: #000;
+    font-family: Teachers;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+#all-services-info #container {
+    padding-top: 70px;
+    height: 1305px;
+    display: flex;
+    width: 100%
+}
+
+#all-services-info .box {
+    padding: 0px;
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#all-services-info .box img {
+    box-sizing: border-box;
+    height: auto;
+    width: 660px;
+
+}
+
+#all-services-info .box .inner-box h3 {
+    color: #000;
+    font-family: Teachers;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+#all-services-info .box .inner-box p {
+    color: #000;
+    font-family: Teachers;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.inner-box {
+    margin-top: 49px;
+    margin-bottom: 20px;
+}
+
+.inner-box button {
+    color: #FFF;
+    text-align: center;
+    font-family: Teachers;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 10px;
+    background: #EA5D37;
+    width: 120px;
+    height: 50px;
+    border: 0px;
+}
+
+#rugs-clinc {
+    height: 1209px;
+    width: 100%;
+}
+
+#rugs-clinc h1 {
+    color: #000;
+    font-family: Onest;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+#rugs-clinc p {
+    color: #000;
+    font-family: Teachers;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#rugs-section {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 84px;
+    height: 820px;
 }
