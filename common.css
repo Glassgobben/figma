@@ -41,3 +41,20 @@ a {
     height: 30px;
     padding-left: 20px;
 }
+
+footer {
+    background-color: #1A3F2D;
+    margin: 0;
+    padding: 40px;
+
+    display: flex;
+    gap: 50px;
+}
+
+footer p {
+    color: white;
+}
+
+#footerRubrik {
+    color: white;
+}

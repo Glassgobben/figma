@@ -118,3 +118,64 @@ h6 {
     font-size: 18px;
     font-weight: bold;
 }
+
+#middle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#middle img {
+    width: 50vw;
+}
+
+.infobox {
+    text-align: left;
+    font-family: "Teachers";
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infobox p {
+    max-width: 500px;
+}
+
+#infobox2 {
+    background-color: #EA5D37;
+    color: white;
+}
+
+#bottom {
+    padding: 100px 0;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+#left_corner {
+    position: absolute;
+}
+
+#quiz {
+    background-image: url(berg.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    width: 90vw;
+    margin: 0;
+}
+
+#button3 {
+    background-color: #EA5D37;
+    padding: 20px 60px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: "Onest";
+    width: 20px;
+    display: flex;
+    justify-content: center;
+}
