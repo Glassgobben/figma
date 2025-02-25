@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Teachers";
+    src: url(fonts/Teachers/Teachers-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Onest";
+    src: url(fonts/Onest/Onest-VariableFont_wght.ttf);
+}
+
 header,
 #left,
 #right {
@@ -17,15 +27,17 @@ header {
 }
 
 #right {
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 a {
     color: white;
     text-decoration: none;
+    font-size: 12px;
 }
 
 #kundvagn {
     width: 30px;
     height: 30px;
+    padding-left: 20px;
 }

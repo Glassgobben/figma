@@ -1,11 +1,16 @@
-@font-face {
-    font-family: "shopping";
-    src: url(fonts/shoppingcart.svg);
-}
-
 body {
     margin: 0;
-    font-family: Helvetica;
+}
+
+#brand {
+    font-family: "Teachers";
+}
+
+h1,
+h6,
+a,
+p {
+    font-family: "Teachers";
 }
 
 h1,
@@ -23,11 +28,11 @@ h6 {
 }
 
 #top {
-    background-image: url(skog.jpg);
+    background-image: url(skog.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 175vh;
+    height: 170vh;
     text-align: center;
 }
 
@@ -36,8 +41,8 @@ h6 {
     top: 150px;
     display: flex;
     justify-content: space-between;
-    margin-left: 30px;
-    margin-right: 30px;
+    gap: 250px;
+    margin: 0 50px;
 }
 
 .flex_item1 {
@@ -46,14 +51,26 @@ h6 {
 }
 
 #right1 {
-    margin-right: 10px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #garbo {
+    font-family: "Onest";
     font-size: 150px;
     max-width: 450px;
-    color: rgb(90, 208, 90);
+    color: #5E9865;
     font-weight: bold;
+    line-height: 1;
+}
+
+#motto {
+    font-size: 24px;
+    text-align: left;
+    padding-left: 13px;
+    max-width: 500px;
 }
 
 .white_text {
@@ -62,33 +79,42 @@ h6 {
 }
 
 #button1 {
-    background-color: orange;
-    min-width: 200px;
-    padding: 10px 40px;
+    background-color: #EA5D37;
+    padding: 20px 60px;
     border-radius: 10px;
+    font-size: 18px;
+    font-family: "Onest";
 }
 
 #right1 {
     position: relative;
-    top: 170px;
+    top: 75px;
 }
 
 #book_message {
-    max-width: 120px;
+    max-width: 200px;
     text-align: center;
-    font-size: 22px;
+    font-size: 26px;
     font-weight: bold;
-    position: relative;
-    left: 77px;
 }
 
 #cont2 {
     position: relative;
-    top: 350px;
+    top: 340px;
 }
 
 #mid_cont2 {
     max-width: 700px;
     margin: 0 auto;
     font-size: 16px;
+}
+
+#waste_smarter {
+    font-family: "Teachers";
+    font-size: 24px;
+}
+
+#bold {
+    font-size: 18px;
+    font-weight: bold;
 }
