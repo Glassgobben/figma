@@ -1,13 +1,11 @@
 @font-face {
     font-family: "Teachers";
-    src: url(../fonts/Onest\,Roboto\,Teachers/);
+    src: url(../fonts/Teachers/static/);
 }
 @font-face {
     font-family: "Onest";
-    src: url(../fonts/Onest\,Roboto\,Teachers/);
+    src: url(../fonts/Onest/static/);
 }
-
-
 
 body{
     margin: 0;
@@ -71,6 +69,7 @@ body{
     font-size: 20px;
 
     width: 800px;
+    font-family: "Teachers";
 }
 
 #goals-section{
