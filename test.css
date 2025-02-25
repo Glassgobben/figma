@@ -2,24 +2,19 @@ body {
     margin: 0;
 }
 
-#brand {
-    font-family: "Teachers";
-}
-
 h1,
+h2,
+h3,
 h6,
 a,
-p {
+p,
+#brand {
     font-family: "Teachers";
 }
 
 h1,
 h6 {
     color: white;
-}
-
-h1 {
-    margin-left: 20px
 }
 
 h6 {
@@ -78,14 +73,6 @@ h6 {
     font-size: 20px;
 }
 
-#button1 {
-    background-color: #EA5D37;
-    padding: 20px 60px;
-    border-radius: 10px;
-    font-size: 18px;
-    font-family: "Onest";
-}
-
 #right1 {
     position: relative;
     top: 75px;
@@ -136,9 +123,11 @@ h6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-.infobox p {
+.infobox p,
+.infobox li {
     max-width: 500px;
 }
 
@@ -147,13 +136,21 @@ h6 {
     color: white;
 }
 
+.subcontainer {
+    text-align: left;
+}
+
+#push_left {
+    position: relative;
+    left: 37px;
+}
+
 #bottom {
-    padding: 100px 0;
-    height: 150vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
+    padding: 100px 0;
 }
 
 #left_corner {
@@ -166,16 +163,50 @@ h6 {
     background-size: cover;
     border-radius: 50px;
     width: 90vw;
-    margin: 0;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
-#button3 {
+#button2 {
+    background-color: #5E9865;
+    padding: 10px 100px;
+    border-radius: 50px;
+    font-family: "Teachers";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#button2:hover {
+    background-color: #49754e;
+}
+
+#transportation {
+    margin: 0;
+    font-size: 48px;
+}
+
+#quiz_info {
+    max-width: 300px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.button_orange {
     background-color: #EA5D37;
-    padding: 20px 60px;
+    color: white;
+    padding: 25px 75px;
     border-radius: 10px;
     font-size: 18px;
+    font-weight: 500;
     font-family: "Onest";
-    width: 20px;
     display: flex;
     justify-content: center;
+}
+
+.button_orange:hover {
+    background-color: #ce5331;
 }
