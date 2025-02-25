@@ -1,6 +1,18 @@
+@font-face {
+    font-family: "Teachers";
+    src: url(../fonts/Onest\,Roboto\,Teachers/);
+}
+@font-face {
+    font-family: "Onest";
+    src: url(../fonts/Onest\,Roboto\,Teachers/);
+}
+
+
+
 body{
     margin: 0;
 }
+
 #trash{
     margin: 0;
 }
