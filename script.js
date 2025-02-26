@@ -1,13 +1,18 @@
-let lastScrollTop = 0; // Håller koll på föregående scroll-position
+let lastScrollTop = 0;
+const navbar = document.querySelector('header');
 
-window.addEventListener("scroll", function () {
-    let scrollTop = window.scrollY || document.documentElement.scrollTop;
+window.addEventListener('scroll', function () {
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
     if (scrollTop < lastScrollTop) {
-        console.log("🔼 Scrollar upp!");
-    } else if (scrollTop > lastScrollTop) {
-        console.log("🔽 Scrollar ner!");
+        // När användaren scrollar uppåt, visa navbar
+        navbar.style.top = "0";
+        navbar.style.position = "fixed";
+    } else {
+        // När användaren scrollar neråt, göm navbar
+        navbar.style.top = "-100px";
+        navbar.style.position = "absolut";
     }
 
-    lastScrollTop = scrollTop; // Uppdatera den senaste scroll-positionen
+    lastScrollTop = scrollTop;
 });
