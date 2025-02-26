@@ -30,8 +30,9 @@ header {
     margin-right: 15px;
 }
 
-header h1 {
-    margin-left: 20px
+header #brand {
+    margin-left: 20px;
+    font-size: 32px;
 }
 
 a {

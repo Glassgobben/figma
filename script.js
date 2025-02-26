@@ -11,4 +11,3 @@ window.addEventListener("scroll", function () {
 
     lastScrollTop = scrollTop; // Uppdatera den senaste scroll-positionen
 });
-
