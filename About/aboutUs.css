@@ -224,18 +224,43 @@ header{
 
 .customer-review{
     width: 100%;
-    height: 650px;
+    height: 110vh;
     background-image: url(../About/unsplash_GmqezLxud8g.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     display: grid;
     place-items: center;
 }
 
+#box h1{
+    color: #000;
+
+    text-align: center;
+    font-family: "Onest";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#box p{
+    color: #000;
+    font-family: "Teachers";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    padding: 20px;
+}
+
 #box{
-    width: 600px;
-    height: 200px;
+    width: 800px;
+    height: 350px;
     background-color: white;
-    padding: 50px;
+    padding: 40px;
     text-align: center;
 }
 
