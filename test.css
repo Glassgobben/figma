@@ -54,7 +54,7 @@ h6 {
 
 #garbo {
     font-family: "Onest";
-    font-size: 150px;
+    font-size: 160px;
     max-width: 450px;
     color: #5E9865;
     font-weight: bold;
@@ -114,6 +114,7 @@ h6 {
 
 #middle img {
     width: 50vw;
+    height: 425px;
 }
 
 .infobox {
