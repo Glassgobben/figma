@@ -11,6 +11,10 @@ body{
     margin: 0;
 }
 
+header{
+    z-index: 3;
+}
+
 #trash{
     margin: 0;
 }
