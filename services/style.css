@@ -56,7 +56,7 @@ nav {
     padding: 10px 20px;
 }
 
-header{
+header {
     z-index: 1;
 }
 
@@ -358,5 +358,5 @@ header{
 footer {
     height: 339px;
     background: #1A3F2D;
-    margin-top: 339px;
+    margin-top: 1000px;
 }
