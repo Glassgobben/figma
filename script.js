@@ -12,7 +12,9 @@ window.addEventListener('scroll', function () {
         }
     } else {
         // När användaren scrollar neråt, göm navbar
-        navbar.classList.remove("nav_highlight");
+        if (navHighlight.length > 0) {
+            navbar.classList.remove("nav_highlight");
+        }
     }
 
     lastScrollTop = scrollTop;
