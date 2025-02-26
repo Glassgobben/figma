@@ -17,19 +17,16 @@ body{
 
 #trashInTheOcean{
     width: 100%;
-    height: 100%;
     margin: 0;
     object-fit: cover;
-
 }
 
 #all{
-    color: white;
-    font-size: 90px;
+    color: #ffffff;
+    font-size: 80px;
     font-style: normal;
     line-height: 100px;
     font-family: "Onest";
-    font-family: Onest;
     font-weight: 900;
     text-transform: uppercase;
     
@@ -40,7 +37,7 @@ body{
 
 #abouttext{
     color: white;
-    font-size: 90px;
+    font-size: 80px;
     font-style: normal;
     line-height: 100px;
     font-family: "Onest";
@@ -54,11 +51,10 @@ body{
 
 #us{
     color: white;
-    font-size: 90px;
+    font-size: 80px;
     font-style: normal;
     line-height: 100px;
     font-family: "Onest";
-    font-family: Onest;
     font-weight: 900;
     text-transform: uppercase;
 
@@ -69,9 +65,9 @@ body{
 
 #textBox{
     position: absolute;
-    top: 350px;
-    left: 250px; 
-    font-size: 21px;
+    top: 340px;
+    left: 240px; 
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -88,45 +84,65 @@ body{
 
 #goals-section h1{
     color: white;
-    font-size: 68px;
     margin: 0;
-    padding: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 13px;
+    margin-left: 64px;
+    font-family: "Onest";
+
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 #goals-section p{
     color: white;
-    font-size: 22px;
     margin-top: 0;
     margin-bottom: 50px;
-    padding-left: 30px;
+    margin-left: 64px;
+
+    font-family: "Teachers";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 #pictures{
     display: flex;
     gap: 25px;
-    margin-left: 100px;
+    margin-left: 64px;
 }
 
 .goals{
-    width: 200px;
+    width: 210px;
 }
 
 #center{
     display: flex;
-    justify-content: space-around;
+    gap: 62px;
+    margin-left: 64px;
     margin-bottom: 200px;
 }
 
 #center img{
-    width: 300px;
+    width: 345px;
 }
 
 #meet{
-    padding: 30px;
+    padding: 20px;
     margin-left: 40px;
-    font-size: 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+
+    text-align: justify;
+    font-family: "Onest";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px; /* 147.059% */
+    text-transform: uppercase;
 }
 
 .readMore{
@@ -134,7 +150,16 @@ body{
     padding: 10px;
     border-radius: 10px;
     color: white;
-    width: 150px;
+    width: 170px;
+    height: 55px;
+
+
+    text-align: center;
+    font-family: "Teachers";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .collab{
@@ -194,3 +219,21 @@ footer p{
     color: white;
 }
 
+.person h1{
+    color: #000;
+
+    font-family: "Teachers";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.person p{
+    color: #000;
+    font-family: "Teachers";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
