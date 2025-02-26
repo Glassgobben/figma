@@ -13,13 +13,14 @@ p,
 }
 
 h1,
-h6 {
+h6,
+#brand {
     color: white;
 }
 
 h6 {
     position: relative;
-    top: 2.5px;
+    top: 0.5px;
 }
 
 #top {
