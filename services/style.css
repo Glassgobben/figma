@@ -56,6 +56,9 @@ nav {
     padding: 10px 20px;
 }
 
+header{
+    z-index: 1;
+}
 
 
 #yeah {
