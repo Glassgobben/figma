@@ -22,8 +22,8 @@ header {
     padding: 5px 15px;
     position: absolute;
     top: 0;
-    right: 0;
     left: 0;
+    right: 0;
 }
 
 #right {
@@ -66,4 +66,12 @@ footer p {
 
 #footerRubrik {
     color: white;
+}
+
+.nav_highlight {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
