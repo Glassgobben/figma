@@ -23,6 +23,7 @@ header{
     width: 100%;
     margin: 0;
     object-fit: cover;
+
 }
 
 #all{
@@ -76,8 +77,12 @@ header{
     font-weight: 500;
     line-height: normal;
 
-    width: 950px;
+    width: 900px;
     font-family: "Teachers";
+}
+
+.The-team{
+    margin: 0;
 }
 
 #goals-section{
@@ -94,7 +99,7 @@ header{
     margin-left: 64px;
     font-family: "Onest";
 
-    font-size: 68px;
+    font-size: 64px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -118,6 +123,7 @@ header{
     display: flex;
     gap: 25px;
     margin-left: 64px;
+
 }
 
 .goals{
@@ -132,7 +138,27 @@ header{
 }
 
 #center img{
-    width: 345px;
+    width: 300px;
+    height: 250px;
+}
+
+.person h1{
+    color: #000;
+
+    font-family: "Teachers";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.person p{
+    color: #000;
+    font-family: "Teachers";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 #meet{
@@ -142,7 +168,7 @@ header{
 
     text-align: justify;
     font-family: "Onest";
-    font-size: 60px;
+    font-size: 64px;
     font-style: normal;
     font-weight: 400;
     line-height: 100px; /* 147.059% */
@@ -154,13 +180,14 @@ header{
     padding: 10px;
     border-radius: 10px;
     color: white;
-    width: 170px;
-    height: 55px;
+    width: 120px;
+    height: 40px;
+    border: none;
 
 
     text-align: center;
     font-family: "Teachers";
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -177,6 +204,12 @@ header{
 
 #collaborators{
     padding: 20px;
+    font-family: "Onest";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 68px; /* 100% */
+    text-transform: uppercase;
 }
 
 .collab-section{
@@ -191,7 +224,7 @@ header{
 #lastPicture{
     width: 100%;
     height: 650px;
-
+    background-image: url(../About/unsplash_GmqezLxud8g.png);
 }
 
 #box{
@@ -227,7 +260,7 @@ footer p{
     color: #000;
 
     font-family: "Teachers";
-    font-size: 25px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -236,7 +269,7 @@ footer p{
 .person p{
     color: #000;
     font-family: "Teachers";
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
