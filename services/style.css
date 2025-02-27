@@ -1,10 +1,7 @@
 /*
 Förbättringar med kod:
  - dela upp det till globala variabler (fonts, font weight, osv..)
- - att det inte är exakta mått (kan ej göra något åt det)
- - Feedback till designers kan vara att ge exakta mått, göra mer exakt liksom. följa designsystemet
- - Också göra det med frames istället så man enklare kan använda sig av flex (frames ger auto placering, mer effektivt)
- - Frames kan också wrappa
+ - Denna kod och sub-sida har exakta mått, dvs det som var från början utan någon förändring i storlekar
 */
 
 
@@ -156,8 +153,6 @@ header {
 .row {
     display: flex;
     gap: 143px;
-    padding-top: 84px;
-    padding-bottom: 95px;
 }
 
 .row #specialBox {
