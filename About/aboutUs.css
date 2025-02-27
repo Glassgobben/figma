@@ -270,7 +270,7 @@ footer{
     padding: 40px;
 
     display: flex;
-    gap: 50px;
+    justify-content: space-between;
 }
 
 footer p{
@@ -281,3 +281,16 @@ footer p{
     color: white;
 }
 
+#left-side{
+    display: flex;
+    gap: 40px;
+}
+#right-side{
+    display: flex;
+    align-items: end;
+    gap: 10px;
+}
+
+.logo{
+    width: 50px;
+}
