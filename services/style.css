@@ -155,6 +155,11 @@ header {
     gap: 143px;
 }
 
+.row-extra {
+    padding-top: 84px;
+    padding-bottom: 95px;
+}
+
 .row #specialBox {
     margin-left: 150px;
 }
